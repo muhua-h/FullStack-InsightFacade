@@ -1,9 +1,31 @@
 # CPSC 310 Project Repository
 
-This repository contains starter code for the class project.
-Please keep your repository private.
+# InsightUBC Project Overview
 
-For information about the project, autotest, and the checkpoints, see the course webpage.
+The **InsightUBC** project is a comprehensive full-stack web application designed to facilitate efficient querying and analysis of the University of British Columbia's course sections and campus rooms. Its primary objective is to provide users with an intuitive interface to access and interpret university data seamlessly.
+
+## Technical Architecture
+
+### 1. Backend Development
+* **Programming Language:** The backend is developed using **TypeScript**, a statically typed superset of JavaScript, which enhances code reliability and maintainability.
+* **Runtime Environment:** **Node.js** serves as the server-side environment, enabling efficient execution of TypeScript code outside the browser.
+* **Data Management:** The system manages datasets related to courses and rooms, allowing operations such as adding, removing, and listing datasets. Data is stored on disk, adhering to the project's constraint of not utilizing external databases.
+* **Query Engine:** A robust query engine processes complex queries based on a defined Extended Backus-Naur Form (EBNF) grammar, facilitating insightful data retrieval.
+
+### 2. Frontend Development
+* **User Interface:** The frontend is crafted using standard web technologies—**HTML**, **CSS**, and **JavaScript**—to create an intuitive and responsive user interface.
+* **RESTful API Integration:** Communication between the frontend and backend is facilitated through a RESTful API, enabling efficient data exchange and interaction.
+
+### 3. Testing and Quality Assurance
+* **Testing Framework:** The project employs **Mocha** and **Chai** for implementing and executing unit tests, ensuring code reliability and adherence to specifications.
+* **Continuous Integration:** Automated testing is integrated into the development workflow, providing immediate feedback on code changes and maintaining high-quality standards.
+
+### 4. Development Tools and Practices
+* **Package Management:** **Yarn** is utilized for managing project dependencies and scripts, ensuring consistent and reliable package installations.
+* **Version Control:** **Git** is employed for version control, facilitating collaborative development and efficient tracking of code changes.
+* **Code Quality:** Tools like **ESLint** are integrated to enforce coding standards and maintain code quality throughout the development process.
+
+This architecture ensures a robust, scalable, and maintainable application, providing users with a seamless experience in querying and analyzing university data.
 
 ## Configuring your environment
 
